@@ -55,7 +55,9 @@
       "^.+\\.stories\\.[jt]sx?$": "<rootDir>node_modules/@storybook/addon-storyshots/injectFileName",
       "^.+\\.svelte$": "jest-transform-svelte"
     },
-    "transformIgnorePatterns": ["node_modules/(?!(@storybook/svelte)/)"],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(@storybook/svelte)/)"
+    ],
     "moduleFileExtensions": [
       "js",
       "svelte",
