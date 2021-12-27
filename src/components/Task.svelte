@@ -42,7 +42,7 @@
     />
   </label>
   <div class="title">
-    <input type="text" readonly value={task.title} placeholder="Input title" />
+    <input type="text" readonly value={task.title} placeholder="Input title" style="background: red;" />
   </div>
   <div class="actions">
     {#if task.state !== "TASK_ARCHIVED"}
